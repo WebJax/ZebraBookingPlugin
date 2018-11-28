@@ -1,0 +1,57 @@
+div#vaelg-kunde-og-ydelse {
+    border: 1px solid lightgray;
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 600;
+    width: 88%;
+    position: fixed;
+    top: 91px;
+    box-shadow: 0 8px 16px -10px;
+    z-index: 10;
+    background-color: #eee;
+}
+
+div#vaelg-kunde-container {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 1em;
+}
+
+div#vaelg-ydelse-container {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 1em;
+}
+
+select#vaelg-en-kunde {
+    width: 25em;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+select#vaelg-en-ydelse {
+    width: 25em;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div#calendar {
+    width: 99%;
+    margin-top: 2em;
+    top: 130px;
+    position: relative;
+}
+
+div#headline {
+  position: fixed;
+  width: 90%;
+  background-color: #eee;
+  z-index: 10;
+  font-size: 20px;
+}
